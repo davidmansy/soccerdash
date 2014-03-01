@@ -37,7 +37,7 @@ angular.module('indexControllerModule', ['soccerDashServices', 'firebase', 'ngAn
           $scope.members.$save(user['id']);
           //When a user is new, redirect him to the '/select''
           $scope.showLoader = false; //Stop the loader in every widget
-          $location.path("/select");
+          $location.path("/profile");
 
           //If it is an existing user, get the fav team, set the curr team, get the fav team results and redirect him to '/'
         } else {  

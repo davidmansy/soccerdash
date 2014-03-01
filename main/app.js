@@ -15,10 +15,10 @@ soccerDashApp.config(['$routeProvider', '$locationProvider', function($routeProv
     templateUrl: '/main/login.html',
     controller: "HomeController"
   })
-  .when('/select', {
-    templateUrl: '/main/selectfavoriteteam.html',
-    controller: "HomeController"
-  })
+  // .when('/select', {
+  //   templateUrl: '/main/selectfavoriteteam.html',
+  //   controller: "HomeController"
+  // })
   .when('/profile', {
     templateUrl: '/main/profile.html',
     controller: "HomeController"
