@@ -32,10 +32,9 @@ angular.module('leagueResultsControllerModule', ['soccerDashServices'])
         matchDateArray.push($scope.resultsData[i]);
       }else {
         var matchObj = {};
-        matchObj['date'] = date;
-        matchObj['matches'] = matchDateArray;
+        matchObj.date = date;
+        matchObj.matches = matchDateArray;
         $scope.allResults.push(matchObj);
-        matchObj = {};
         matchDateArray = []; // reset to empty array
         date = $scope.resultsData[i].dateiso;
         matchDateArray.push($scope.resultsData[i]);

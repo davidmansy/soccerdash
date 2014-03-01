@@ -10,10 +10,7 @@ angular.module('teamTopScorersControllerModule', ['soccerDashServices'])
 
       statsfcService.fetchData(getTeamTopScorersUrl(newVal.teampath))
       .then(function(data) {
-        $scope.goalData = [];
-        for(var i = 0; i < 8; i++) { 
-          $scope.goalData.push(data[i]);
-        }
+        $scope.goalData = data.slice(0,8);
         $scope.showGoal = true;
       });
     }
