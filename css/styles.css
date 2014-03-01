@@ -58,8 +58,6 @@ table {
 
 /* Web Fonts */
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Fjalla+One);
-/* font-family: 'Fjalla One', sans-serif; */
-/* font-family: 'PT Sans Narrow', sans-serif; */
 
 /* Main Styles */
 body {
@@ -401,6 +399,28 @@ nav li a:hover,
     padding: 1.15% 0;
   }
 
+  /* League Position Line Graph*/
+  path {
+    stroke: steelblue;
+    stroke-width: 1;
+    fill: none;
+  }
+  .axis {
+    shape-rendering: crispEdges;
+  }
+  .x.axis line {
+    stroke: lightgrey;
+  }
+  .x.axis .minor {
+    stroke-opacity: .5;
+  }
+  .x.axis path {
+    display: none;
+  }
+  .y.axis line, .y.axis path {
+    fill: none;
+    stroke: #000;
+  }
 
 /* Change Favourite Team menu */
 .popupTeamSelect {
@@ -429,37 +449,12 @@ nav li a:hover,
   cursor: pointer;
 }
 
-/**/
-
-/*line-graph*/
-path {
-  stroke: steelblue;
-  stroke-width: 1;
-  fill: none;
-}
-.axis {
-  shape-rendering: crispEdges;
-}
-.x.axis line {
-  stroke: lightgrey;
-}
-.x.axis .minor {
-  stroke-opacity: .5;
-}
-.x.axis path {
-  display: none;
-}
-.y.axis line, .y.axis path {
-  fill: none;
-  stroke: #000;
-}
 
 /* Ajax Loader */
 .ajax-loader {
   width: 20%; 
   margin: 20% auto;
 }
-
 .ajax-loader img {
   display: block;
   width: 20%;
