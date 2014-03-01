@@ -221,206 +221,206 @@ nav li a:hover,
 
 
 /* Widget Specific Styles */
-  .expanded-widget {
-    height: 96vh;
-    width: 98%;
-    margin: 1% auto;
-    box-sizing: border-box;
-    position: relative;
-    background-color: #fff;
-    opacity: .85;
-  }
-  .expanded-widget-container {
-    height: 94vh;
-    width: 98%;
-    margin: 0 auto;
-    overflow: auto;
-  }
-  .expanded-widget .back {
-    font-size: 80%;
-    position: fixed;
-    top : 3%;
-    left: 3%;
-    padding: 1% 2%;
-  }
-  .widget-link {
-    font-size: 80%;
-    position: absolute;
-    bottom : 2%;
-    text-decoration: none;
-    background-color: #2d3278;
-  }
-  .button-left {
-    left: 2%;
-  }
-  .button-right {
-    right: 2%;    
-  }
+.expanded-widget {
+  height: 96vh;
+  width: 98%;
+  margin: 1% auto;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  opacity: .85;
+}
+.expanded-widget-container {
+  height: 94vh;
+  width: 98%;
+  margin: 0 auto;
+  overflow: auto;
+}
+.expanded-widget .back {
+  font-size: 80%;
+  position: fixed;
+  top : 3%;
+  left: 3%;
+  padding: 1% 2%;
+}
+.widget-link {
+  font-size: 80%;
+  position: absolute;
+  bottom : 2%;
+  text-decoration: none;
+  background-color: #2d3278;
+}
+.button-left {
+  left: 2%;
+}
+.button-right {
+  right: 2%;    
+}
 
-  /* Recent Result */
-  .recent-result span {
-    font-size: 125%;
-    display: block;
-    text-align: center;
-  }
-  .result-container {
-    width: 100%;
-    margin-bottom: 2%;
-  }
-  .homeTeam,
-  .awayTeam {
-    margin-top: 2%;
-    width: 49%;
-    text-align: center;
-    overflow: auto;
-  }
-  .homeTeam {
-    float: left;
-  }
-  .awayTeam {
-    float: right;
-  }
-  .homeTeam p, 
-  .awayTeam p {
-    font-size: 100%;
-    padding: 2% 0;
-  }
-
-  /* Team Specific Results */
-  .team-result-container,
-  .league-result-container {
-  width: 100%;
+/* Recent Result */
+.recent-result span {
+  font-size: 125%;
+  display: block;
   text-align: center;
-  margin-bottom: 1%;
-  }
-  .results {
-    margin: 1% 0;
-  }
-  .results h4 {
-    font-size: 125%;
-  }
-  .home-result,
-  .away-result {
-    width: 49%;
-  }
-  .home-result {
-    float: left;
-    text-align: right
-  }
-  .away-result {
-    float: right;
-    text-align: left
-  }
-  .team-result-container .team {
-    display: inline-block;
-  }
-  .home-result .team {
-    padding-right: 2%;
-  }
-  .away-result .team {
-    padding-left: 2%;
-  }
-  .results .incidents {
-    margin: 1% 0;
-  }  
+}
+.result-container {
+  width: 100%;
+  margin-bottom: 2%;
+}
+.homeTeam,
+.awayTeam {
+  margin-top: 2%;
+  width: 49%;
+  text-align: center;
+  overflow: auto;
+}
+.homeTeam {
+  float: left;
+}
+.awayTeam {
+  float: right;
+}
+.homeTeam p, 
+.awayTeam p {
+  font-size: 100%;
+  padding: 2% 0;
+}
 
-  /* Team Top Scorers */
-  .chart .data-rep {
-    background-color: #B00000;
-    margin: 1% 0;
-    height: 9px;
-  }
-  .team-top-scorers {
-    margin: 0 auto;
-    width: 96%;
-  }
+/* Team Specific Results */
+.team-result-container,
+.league-result-container {
+width: 100%;
+text-align: center;
+margin-bottom: 1%;
+}
+.results {
+  margin: 1% 0;
+}
+.results h4 {
+  font-size: 125%;
+}
+.home-result,
+.away-result {
+  width: 49%;
+}
+.home-result {
+  float: left;
+  text-align: right
+}
+.away-result {
+  float: right;
+  text-align: left
+}
+.team-result-container .team {
+  display: inline-block;
+}
+.home-result .team {
+  padding-right: 2%;
+}
+.away-result .team {
+  padding-left: 2%;
+}
+.results .incidents {
+  margin: 1% 0;
+}  
 
-  /* Current League Position */
-  .stats-left,
-  .stats-right {
-    width: 49%;
-  }
-  .stats-left {
-    float: left;
-  }
-  .stats-right {
-    float: right;
-  }
-  .stats-left table,
-  .stats-right table {  
-    font-size: 120%;
-    margin: 0 auto;
-    width: 98%;
-  }
-  .current-position .position { 
-    background-color: #B00000;
-    margin: 2% 0;
-    padding: 3%;
-    color: #fff;
-  }
-  .league-stats td {
-    padding: 5% 3%;
-  }
-  .league-stats .category {
-    width: 50%;
-    text-align: left;
-  }
-  .positive {
-    color: #2d784f;
-  }
-  .negative {
-    color: #782d30;
-  }
+/* Team Top Scorers */
+.chart .data-rep {
+  background-color: #B00000;
+  margin: 1% 0;
+  height: 9px;
+}
+.team-top-scorers {
+  margin: 0 auto;
+  width: 96%;
+}
 
-  /* League Table (expanded) */
-  .league-table {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .leaguefull {
-    margin: auto;
-    width: 55%;
-  }
-  .leaguefull th {
-    border-bottom: 1px solid #efefef;
-    padding-bottom: 1%;
-  }
-  .leaguefull .team-column {
-    width: 18%;
-  }
-  .leaguefull .goal-diff {
-    width: 10%;
-  }  
-  .league-content .team-name {
-    text-align: left;
-  }
-  td {
-    text-align: center;
-    padding: 1.15% 0;
-  }
+/* Current League Position */
+.stats-left,
+.stats-right {
+  width: 49%;
+}
+.stats-left {
+  float: left;
+}
+.stats-right {
+  float: right;
+}
+.stats-left table,
+.stats-right table {  
+  font-size: 120%;
+  margin: 0 auto;
+  width: 98%;
+}
+.current-position .position { 
+  background-color: #B00000;
+  margin: 2% 0;
+  padding: 3%;
+  color: #fff;
+}
+.league-stats td {
+  padding: 5% 3%;
+}
+.league-stats .category {
+  width: 50%;
+  text-align: left;
+}
+.positive {
+  color: #2d784f;
+}
+.negative {
+  color: #782d30;
+}
 
-  /* League Position Line Graph*/
-  path {
-    stroke: steelblue;
-    stroke-width: 1;
-    fill: none;
-  }
-  .axis {
-    shape-rendering: crispEdges;
-  }
-  .x.axis line {
-    stroke: lightgrey;
-  }
-  .x.axis .minor {
-    stroke-opacity: .5;
-  }
-  .x.axis path {
-    display: none;
-  }
-  .y.axis line, .y.axis path {
-    fill: none;
-    stroke: #000;
-  }
+/* League Table (expanded) */
+.league-table {
+  width: 100%;
+  margin: 0 auto;
+}
+.leaguefull {
+  margin: auto;
+  width: 55%;
+}
+.leaguefull th {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 1%;
+}
+.leaguefull .team-column {
+  width: 18%;
+}
+.leaguefull .goal-diff {
+  width: 10%;
+}  
+.league-content .team-name {
+  text-align: left;
+}
+td {
+  text-align: center;
+  padding: 1.15% 0;
+}
+
+/* League Position Line Graph*/
+path {
+  stroke: steelblue;
+  stroke-width: 1;
+  fill: none;
+}
+.axis {
+  shape-rendering: crispEdges;
+}
+.x.axis line {
+  stroke: lightgrey;
+}
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+.x.axis path {
+  display: none;
+}
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: #000;
+}
 
 /* Change Favourite Team menu */
 .popupTeamSelect {
